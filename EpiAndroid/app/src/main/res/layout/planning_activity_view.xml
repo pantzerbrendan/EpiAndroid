@@ -1,0 +1,43 @@
+<LinearLayout
+    android:id="@+id/TopView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableLayout
+        android:id="@+id/tableTrolo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/activity_view_time"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="10:00 - 11:00"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/activity_view_name"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Nom de l'activité"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/activity_view_teacher"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Professeur"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/activity_view_room"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Salle: D201"
+            android:textSize="18dp" />
+
+    </TableLayout>
+
+
+</LinearLayout>

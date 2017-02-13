@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Strings related to login -->
+
+    <!-- Chaînes pour les différents textes -->
+    <string name="login_hint">Login</string>
+    <string name="password_hint">Mot de passe (UNIX)</string>
+    <string name="connection_button_text">Connexion</string>
+    <string name="action_connection">Connexion</string>
+    <string name="stay_connected_checkbox_text">Rester connecté</string>
+
+    <!-- Chaînes pour dire que des éléments sont invalides -->
+    <string name="invalid_login">Le login est invalide</string>
+    <string name="incorrect_login">Le login est incorrect</string>
+    <string name="invalid_password">Le mot de passe est invalide</string>
+    <string name="incorrect_password">Le mot de passe est incorrect</string>
+    <string name="required_field">Ce champ est requis</string>
+
+</resources>

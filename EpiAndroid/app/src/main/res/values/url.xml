@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="url_login">https://epitech-api.herokuapp.com/login</string>
+    <string name="url_infos">https://epitech-api.herokuapp.com/infos</string>
+    <string name="url_planning">https://epitech-api.herokuapp.com/planning</string>
+    <string name="url_susies">https://epitech-api.herokuapp.com/susies</string>
+    <string name="url_susie">https://epitech-api.herokuapp.com/susie</string>
+    <string name="url_projects">https://epitech-api.herokuapp.com/projects</string>
+    <string name="url_project">https://epitech-api.herokuapp.com/project</string>
+    <string name="url_project_files">https://epitech-api.herokuapp.com/project_files</string>
+    <string name="url_modules">https://epitech-api.herokuapp.com/modules</string>
+    <string name="url_allmodules">https://epitech-api.herokuapp.com/allmodules</string>
+    <string name="url_event">https://epitech-api.herokuapp.com/event</string>
+    <string name="url_marks">https://epitech-api.herokuapp.com/marks</string>
+    <string name="url_messages">https://epitech-api.herokuapp.com/messages</string>
+    <string name="url_alerts">https://epitech-api.herokuapp.com/alerts</string>
+    <string name="url_photo">https://epitech-api.herokuapp.com/photo</string>
+    <string name="url_token">https://epitech-api.herokuapp.com/token</string>
+    <string name="url_trombi">https://epitech-api.herokuapp.com/trombi</string>
+
+</resources>

@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/login_activity_horizontal_margin"
+    android:paddingRight="@dimen/login_activity_horizontal_margin"
+    android:paddingTop="@dimen/login_activity_vertical_margin"
+    android:paddingBottom="@dimen/login_activity_vertical_margin"
+    android:background="@color/darkblue"
+    tools:context=".LoginActivity">
+
+    <!-- Login progress : probably useless -->
+
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/login_and_password_layout"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Logo layout -->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_activity_logo_layout_height"
+                android:id="@+id/logo_layout"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/login_activity_logo_height"
+                    android:id="@+id/logo_image_view"
+                    android:layout_weight="0.51"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/epitech_logo" />
+            </LinearLayout>
+
+            <!-- login and password layout -->
+            <!-- Login text field -->
+            <EditText
+                android:id="@+id/login_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/login_hint"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <!-- Password text field -->
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password_hint"
+                android:imeActionId="@+id/login"
+                android:imeActionLabel="@string/action_connection"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <!-- Connection button -->
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stay_connected_checkbox_text"
+                android:id="@+id/stay_connected_checkbox" />
+
+            <Button
+                android:id="@+id/connection_button"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/connection_button_text"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
+
+
